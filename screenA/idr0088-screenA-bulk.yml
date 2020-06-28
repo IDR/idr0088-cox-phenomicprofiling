@@ -1,0 +1,10 @@
+---
+target: "Screen:name:idr0088-cox-phenomicprofiling/screenA"
+path: "idr0088-screenA-plates.tsv"
+continue: "true"
+transfer: "ln_s"
+skip: "all"
+logprefix: "logs/"
+parallel_upload: "10"
+columns:
+    - path
