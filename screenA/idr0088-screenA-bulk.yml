@@ -5,6 +5,8 @@ continue: "true"
 transfer: "ln_s"
 skip: "all"
 logprefix: "logs/"
+file: "idr0088.log"
+errs: "idr0088.err"
 parallel_upload: "10"
 columns:
     - path
