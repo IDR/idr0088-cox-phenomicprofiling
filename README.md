@@ -6,7 +6,7 @@
 | Task | Duration | Checked |
 | :----: |:----:| :----:|
 | Images| 3.5 days | -- |
-| Rendering | -- | -- |
+| Rendering | 4 days* | -- |
 | Annotations | -- | -- |
 
 ### idr-next
@@ -15,3 +15,5 @@
 | Images| -- | -- |
 | Rendering | -- | -- |
 | Annotations | -- | -- |
+
+*) Using 5 parallel jobs
