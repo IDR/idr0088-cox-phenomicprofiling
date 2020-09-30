@@ -7,7 +7,7 @@
 | :----: |:----:| :----:|
 | Images| 3.5 days | -- |
 | Rendering | 4 days* | -- |
-| Annotations | -- | -- |
+| Annotations | 12h | -- |
 
 ### idr-next
 | Task | Done | Checked |
