@@ -2,21 +2,21 @@
 channels:
     1:
         active: true
-        color: FF0000
+        color: 0000FF
         end: 4319.0
-        label: 'Channel #1, Camera #3'
+        label: 'Change me 1'
         start: 27.0
     2:
         active: true
         color: 00FF00
         end: 6193.0
-        label: 'Channel #2, Camera #3'
+        label: 'Change me 2'
         start: 0.0
     3:
         active: true
-        color: 0000FF
+        color: FF0000
         end: 3880.0
-        label: 'Channel #3, Camera #2'
+        label: 'Change me 3'
         start: 0.0
 greyscale: false
 t: 1
