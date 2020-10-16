@@ -34,10 +34,10 @@ columns:
         clientname: Cell Line
         include: yes
 
-- group:
+  - group:
       namespace: openmicroscopy.org/mapr/cell_line/supplementary
       columns:
-        - name: Comment [Cell Line with Markers]
+      - name: Comment [Cell Line with Markers]
         clientname: Cell Line with Markers
         include: yes
 
