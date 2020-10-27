@@ -47,9 +47,8 @@ columns:
         - name: Compound Name
           clientname: Compound Name
           include: yes
-        - name: Compound Name
+        - name: Compound PubChem URL
           clientname: Compound Name URL
-          clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
           include: yes
 
   - group:
@@ -57,9 +56,6 @@ columns:
       columns:
         - name: Compound PubChem CID
           clientname: PubChem CID
-          include: yes
-        - name: Compound PubChem URL
-          clientname: PubChem URL
           include: yes
         - name: Compound InChIKey
           clientname: InChIKey
