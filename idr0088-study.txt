@@ -1,0 +1,115 @@
+# STUDY DESCRIPTION SECTION						
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details	
+						
+Comment[IDR Study Accession]	idr0088					
+Study Title	Tales of 1,008 Small Molecules: Phenomic Profiling through Live-cell Imaging in a Panel of Reporter Cell Lines					
+Study Type	high content screen					
+Study Type Term Source REF	EFO					
+Study Type Term Accession	EFO_0007550					
+Study Description	To devise an economical set of phenomic profiling assays, we assembled a library of 1,008 approved drugs and tool compounds manually annotated to 218 unique MoAs and an addtional 169 natural products, and we profiled each compound at four concentrations in live-cell, high-content imaging screens against a panel of 15 reporter cell lines, which expressed a diverse set of fluorescent organelle and pathway markers in three distinct cell lineages. Phenomic profiling can be used for compound target identification or mechanism of action (MoA) prediction and other applications in drug discovery. For 41 of 83 MoAs with sufficiently many active compounds, phenomic profiles accurately ranked the reference compounds (AUC-ROC ³0.9) in at least one of our cell lines.					
+Study Key Words	imaging	phenomic profiling	cell painting-like	compound MoA/target characterization	mechanism-of-action					
+Study Organism	Homo sapiens					
+Study Organism Term Source REF	NCBITaxon					
+Study Organism Term Accession	9606					
+Study Screens Number	1					
+Study External URL	
+Study BioImage Archive Accession					
+Study Public Release Date	2020-11-19	
+		
+						
+# Study Publication						
+Study PubMed ID						
+Study Publication Title	Tales of 1,008 Small Molecules: Phenomic Profiling through Live-cell Imaging in a Panel of Reporter Cell Lines					
+Study Author List	Cox MJ, Jaensch S, Van de Waeter J, Cougnaud L, Seynaeve D, Benalla S, Koo SJ, Van Den Wyngaert I, Neefs JM, Malkov D, Bittremieux M, Steemans M, Peeters PJ, Wegner JK, Ceulemans H, Gustin E, Chong YT, Gšhlmann HWH			
+Study PMC ID						
+Study DOI						
+						
+# Study Contacts						
+Study Person Last Name	Jaensch					
+Study Person First Name	Steffen					
+Study Person Email	sjaensch@its.jnj.com					
+Study Person Address	Turnhoutseweg 30, 2340 Beerse, Belgium				
+Study Person ORCID	0000-0001-5637-3154					
+Study Person Roles	submitter					
+						
+# Study License and Data DOI						
+Study License	CC-BY-NC 4.0 International license					
+Study License URL	https://creativecommons.org/licenses/by-nc/4.0/			
+Study Copyright	Cox and	Jaensch et al				
+Study Data Publisher	University of Dundee					
+Study Data DOI						
+						
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi		
+Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/		
+						
+						
+# SCREEN SECTION						
+# Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description.	
+# For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.						
+						
+Screen Number	1					
+Comment[IDR Screen Name]	idr0088-cox-phenomicprofiling/screenA	
+Screen Sample Type	cell		
+Screen Description	We screened a library of 1,008 approved drugs and well-characterized tool compounds manually annotated to 218 unique mechanisms-of-action (MoA) and 169 natural products at four concentrations with four replicates each in live-cell, high-content imaging screens against a panel of 15 reporter cell lines, which expressed a diverse set of fluorescent organelle and pathway markers in three distinct cell lineages. Each reporter cell line carried a BFP segmentation cassette that enabled detection of the nuclear and cell boundaries. In addition, each reporter cell line expressed a GFP- and a RFP/FusionRed-tagged organelle or pathway marker from its endogenous chromosomal locus. These markers were selected to cover a broad array of organelles, cellular structures and regulatory pathways for the generation of information-rich image-based compound descriptors.					
+Screen Size	Plates: 1199	5D Images: 	Planes: 1	Average Image Dimension (XYZCT): 1250 x 1050 x 1 x 3 x 1	Total Tb: 5.4	# fill in any values you know
+Screen Example Images	Plate 110000252072, Well I12, folder: p171114PPS107/PpsL05Wpmy1ActbRab5a_PPS107_20171115_152709					
+Screen Imaging Method	spinning disk confocal microscopy					
+Screen Imaging Method Term Source REF	Fbbi					
+Screen Imaging Method Term Accession	FBbi_00000253					
+Screen Technology Type	compound screen					
+Screen Technology Type Term Source REF	EFO					
+Screen Technology Type Term Accession	EFO_0007553					
+Screen Type	primary screen					
+Screen Type Term Source REF	EFO					
+Screen Type Term Accession	EFO_0007556						
+Screen Comments						
+						
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)					
+Library File Name	idr0000 Cox and Jaensch et al-screenA-annotation.csv					
+Library File Format	.csv					
+Library Type	compound library					
+Library Type Term Source REF	EFO					
+Library Type Term Accession	EFO_0007569					
+Library Manufacturer	assembled as part of this study					
+Library Version						
+Library Experimental Conditions						
+Library Experimental Conditions Term Source REF	EFO					
+Library Experimental Conditions Term Accession						
+Quality Control Description						
+						
+# Protocols						
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol	
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol	
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573	
+Protocol Description	Cells were maintained using standard laboratory techniques at 37°C and 5% CO2. During cell line maintenance and propagation, cells were cultured in the presence of phenol red; but, this was omitted during imaging as it obscures the signal from RFP/fusionRed-tagged proteins. HepG2 cells were cultured in MEM, 10% FBS, 2 mM L-glutamine, 100 U/ml Pen-Strep. A549 cells were cultured in RPMI-1640, 10% FBS, 2 mM L-glutamine, 100 U/ml Pen-Strep. WPMY1 cells were cultured in DMEM, 5% FBS, 4 mM L-glutamine, 1 mM sodium pyruvate, 100 U/ml Pen-Strep."	"Cells were seeded in medium containing no phenol red on to 384-well poly-D-lysine-coated microClear plates at the appropriate density and grown for 20 to 40 hours before treatment with compound at 0.3, 1, 3, or 9 ?M. To control for experimental variation, two technical replicates were included for each compound treatment in each imaging batch and two batches were prepared for each reporter cell line. Cells were grown for an additional 24 hours before imaging. As cells were actively growing during imaging (doubling time 18-24 hours), the last 10 plates in a batch were seeded at a lower cell density than the first 10 plates to compensate for the additional growth period they would encounter before imaging. The exact seeding densities were optimized for each cell line so that cells in control wells were 50% to 80% confluent at the time of imaging.	We assembled a library of 1,008 approved drugs and tool compounds manually annotated to 218 unique MoAs and included an additional 169 natural products from the Prestwick library in our screen.	Each of the 15 reporter cell lines carried a BFP segmentation cassette that enabled detection of the nuclear and cell boundaries. In addition, each reporter cell line expressed a GFP- and RFP/fusionRed-tagged organelle or pathway marker from its endogenous chromosomal locus. Five different combinations of organelle and pathway markers were introduced into each cell type. Cells were imaged on a Cell Voyager 7000 (Yokogawa, Tokyo, Japan) high-throughput microscope equipped with a climate control chamber (37°C, 5% CO2). Images of BFP (ex: 405 nm, em: 445/45), GFP (ex: 488 nm, em: 525/50), and RFP/fusionRed (ex:561 nm, em: 593/46) were acquired at two to three sites per well using a 20× objective lens (Olympus, Tokyo, Japan; NA 0.75). All liquid dispensation, compound treatment, and imaging steps were conducted on an automated platform designed specifically for live-cell microscopy screens. Typically, twenty 384-well plates were imaged per day over a 20-hour period.	Please see study publication for details.	
+						
+						
+# Phenotypes						
+Phenotype Name						
+Phenotype Description						
+Phenotype Score Type						
+Phenotype Term Source REF						
+Phenotype Term Name						
+Phenotype Term Accession						
+						
+# Raw Data Files						
+Raw Image Data Format	.tif files (Cell Voyager 7000 format)					
+Raw Image Organization	1199 plates in total are organized in 67 folders corresponding to experimental batches. 2 to 3 fields were imaged in each well.					
+						
+# Feature Level Data Files						
+Feature Level Data File Name						
+Feature Level Data File Description						
+Feature Level Data File Format						
+Feature Level Data Column Name				
+Feature Level Data Column Description						
+						
+#  Processed Data Files 						
+Processed Data File Name					
+Processed Data File Format	tab-delimited text					
+Processed Data File Description					
+Processed Data Column Name						
+Processed Data Column Type						
+Processed Data Column Annotation Level						
+Processed Data Column Description				
+Processed Data Column Link To Library File	
