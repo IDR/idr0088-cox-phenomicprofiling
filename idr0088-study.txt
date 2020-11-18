@@ -18,11 +18,11 @@ Study Public Release Date	2020-11-19
 		
 						
 # Study Publication						
-Study PubMed ID						
+Study PubMed ID	32764586						
 Study Publication Title	Tales of 1,008 Small Molecules: Phenomic Profiling through Live-cell Imaging in a Panel of Reporter Cell Lines					
 Study Author List	Cox MJ, Jaensch S, Van de Waeter J, Cougnaud L, Seynaeve D, Benalla S, Koo SJ, Van Den Wyngaert I, Neefs JM, Malkov D, Bittremieux M, Steemans M, Peeters PJ, Wegner JK, Ceulemans H, Gustin E, Chong YT, Gšhlmann HWH			
-Study PMC ID						
-Study DOI						
+Study PMC ID	PMC7411054						
+Study DOI	https://doi.org/10.1038/s41598-020-69354-8				
 						
 # Study Contacts						
 Study Person Last Name	Jaensch					
