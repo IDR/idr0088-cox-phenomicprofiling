@@ -33,7 +33,7 @@ Study Person ORCID	0000-0001-5637-3154
 Study Person Roles	submitter					
 						
 # Study License and Data DOI						
-Study License	CC-BY-NC 4.0 International license					
+Study License	CC BY-NC 4.0					
 Study License URL	https://creativecommons.org/licenses/by-nc/4.0/			
 Study Copyright	Cox et al				
 Study Data Publisher	University of Dundee					
