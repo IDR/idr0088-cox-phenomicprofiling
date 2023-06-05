@@ -16,13 +16,15 @@ def delete_memo_file(plate):
     for well in plate.listChildren():
         for well_sample in well.listChildren():
             imported_paths = well_sample.getImage().getImportedImageFilePaths()
-            wpi_path = imported_paths['server_paths'][0]
-            assert wpi_path.endswith(".wpi")
-            memo_filename = '.' + os.path.basename(wpi_path) + '.bfmemo'
+            for import_file in imported_paths['server_paths':
+                if import_file.endswith(".wpi"):
+                    break
+            assert import_file.endswith(".wpi")
+            memo_filename = '.' + os.path.basename(import_file) + '.bfmemo'
             memo_filepath = os.path.join(
                 BF_CACHE,
                 MANAGED_REPO,
-                os.path.dirname(wpi_path),
+                os.path.dirname(import_file),
                 memo_filename
             )
             if os.path.exists(memo_filepath):
